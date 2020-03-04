@@ -1,10 +1,4 @@
-@import url('https://fonts.googleapis.com/css?family=Muli&display=swap');
-*{padding: 0%;margin:0;}
-body{
-    background-color: #fff8dc94;
-    font-family: 'Muli', sans-serif;
-    color: #323348;
-}
+
 header{
     background-color:#fff8dce6;
     display: flex;

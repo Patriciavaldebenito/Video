@@ -1,0 +1,29 @@
+.main{
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 4em;
+}
+
+.main__title{
+    color: #323348;
+    font-size: 25px;
+}
+input{
+    width: 70%;
+    background-color:rgba(255, 248, 220, 0.9);
+    border: 2px solid #323348;
+    border-radius: 25px;
+    padding:  0px 20px;
+    color: #323348;
+    font-size: 16px;
+    height: 30px;
+    font-family: 'Muli', sans-serif;
+
+
+    /*
+    height: ;
+    margin: ;
+  */
+}

@@ -1,3 +1,84 @@
-img{
-    width: 50px;
+@import url('https://fonts.googleapis.com/css?family=Muli&display=swap');
+*{padding: 0%;margin:0;}
+body{
+    background-color: #fff8dc94;
+    font-family: 'Muli', sans-serif;
+    color: #323348;
 }
+header{
+    background-color:#fff8dce6;
+    display: flex;
+    height: 80px;
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header__logo{
+    display: flex; 
+    flex-direction: row; 
+    justify-content: center;
+    align-items: center;
+} 
+
+.header__logo--img {
+    max-width: 45px;
+    max-height: 40px;
+    margin:0px 0px 0px 10px;
+}
+.header__logo--p{    
+    margin-left: 8px;
+}
+
+.header__menu{
+    height: 40px;
+    
+    background-color: transparent;
+}
+
+.header__menu:hover ul,ul:hover{
+    display:block;
+}
+
+.header__menu--profile {
+    display: flex;
+    margin-right: 8px;
+    width: 100px;
+    align-items: center;
+}
+.header__menu--profile img{
+    width: 30px;
+    margin-right: 8px;
+    align-items: center;
+}
+
+.header__menu--profile p{
+    margin-right: 10px;
+}
+
+.header__menu ul{
+    display: none;
+    list-style: none;
+    padding:0;  
+    position: absolute;
+    width: 100px;
+    text-align: right;
+    margin: 0px 0px 0px -14px;
+}
+div.header__menu--profile p,div.header__menu--profile li a{
+    font-weight: 600;
+}
+.header__menu li {
+    margin: 10px 0px;
+}
+
+
+.header__menu li a{
+   color: tomato !important;
+   text-decoration: none;
+}
+
+.header__menu li a:hover {
+    text-decoration: underline;
+}
+

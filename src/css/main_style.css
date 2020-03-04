@@ -8,27 +8,25 @@
 }
 
 .main__title{
-    color: #323348;
+    color: #fff;
     font-size: 25px;
 }
-input{
+
+.input--search{
     width: 70%;
-    background-color:rgba(255, 248, 220, 0.9);
-    border: 2px solid #323348;
+    background-color:#212F3D;
+    border: 1.5px solid #DF2EE8;
     border-radius: 25px;
     padding:  0px 20px;
-    color: #323348;
+    color: #fff;
     font-size: 16px;
     height: 30px;
     font-family: 'Muli', sans-serif;
-
-
-    /*
-    height: ;
-    margin: ;
-  */
 }
 
+
+
+::placeholder{color: #fff;}
 /*CAROUSEL => ELEMENTO*/
 .carousel{
     width: 100%;

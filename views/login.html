@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PatiVideos Login</title>
+    <link href="https://fonts.googleapis.com/css?family=Muli&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="../src/css/a_style_general.css">
+    <link rel="stylesheet" href="../src/css/header_style.css">
+    <link rel="stylesheet" href="../src/css/login_style.css">
+    <link rel="stylesheet" href="../src/css/footer_style.css">
+   
+</head>
+<body>
+    <header>
+        <div class="header__logo">
+            <img class="header__logo--img" src="../src/assets/video-camera.png" alt="logo aplicación videos">
+            <p class="header__logo--p">PatiVideos</p>
+        </div>
+
+        <div class="header__menu">
+
+            <div class="header__menu--profile">
+                <img src="../src/assets/user-icon.png" alt="imagen user, representativo icono Perfil">
+                <p>Perfil</p>
+            </div>
+
+
+            <ul>
+                <li><a href="/">Cuenta</a></li>
+                <li><a href="/">Cerrar Sesión</a></li>
+            </ul>
+
+        </div>
+    </header>
+
+    <section class="login py-2">
+        <section class="login__container">
+            <h2>Inicia Sesión</h2>
+            <form class="login__container--form" action="">
+                <input class="input--form" type="text" placeholder="Correo" name="" id="">
+                <input class="input--form" type="password" placeholder="Contraseña" name="" id="">
+                <button class="button">Iniciar Sesión</button>
+                <div class="login__container--remember-me">
+                    <label>
+                        <input type="checkbox" name="" id="check_uno" value="checkbox"> Recuerdame
+                    </label>
+                    <a href="/">Olvide mi Contraseña</a>
+                </div>
+            </form>
+            <section class="login__container--social-media">
+                <div><img src="../src/assets/google.png" alt="imagen imagen icono google">Inicia sesión con Google</div>
+                <div><img src="../src/assets/twitter.png" alt="imagen imagen icono google">Inicia sesión con Twitter</div>
+            </section>
+            <p class="login__container--register">No tienes cuenta, <a href="/">Registrate</a></p>
+        </section>
+    </section>
+    <footer class="footer">
+        <a href="/">Terminos de uso</a>
+        <a href="/">Declaración de privacidad</a>
+        <a href="/">Centro de ayuda</a>
+    </footer>
+</body>
+</html>

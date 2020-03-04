@@ -1,8 +1,8 @@
 
 header{
-    background-color:#fff8dce6;
+    background-color:#2C3E50 ;
     display: flex;
-    height: 80px;
+    height: 50px;
     width: 100%;
     justify-content: space-between;
     align-items: center;
@@ -70,9 +70,11 @@ div.header__menu--profile p,div.header__menu--profile li a{
 .header__menu li a{
    color: tomato !important;
    text-decoration: none;
+   font-weight: bold;
 }
 
 .header__menu li a:hover {
     text-decoration: underline;
+    font-weight: bold;
 }
 

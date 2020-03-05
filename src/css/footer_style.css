@@ -9,11 +9,18 @@
 .footer a{
    color: #fff;
    text-decoration: none;
-   font-size: 14px;
+   font-size: 10px;
    cursor: pointer;
    padding-left: 30px;
 }
 
-.footer a{
+.footer a:hover{
     text-decoration: underline;
+}
+
+
+@media only screen and (min-width:576px){
+    .footer a{
+       font-size: 14px;
+    }
 }

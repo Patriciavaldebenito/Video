@@ -5,16 +5,16 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>PatiVideos Login</title>
     <link href="https://fonts.googleapis.com/css?family=Muli&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="../src/css/a_style_general.css">
-    <link rel="stylesheet" href="../src/css/header_style.css">
-    <link rel="stylesheet" href="../src/css/login_and_register_style.css">
-    <link rel="stylesheet" href="../src/css/footer_style.css">
+    <link rel="stylesheet" href="../src/scss-css/a_style_general.css">
+    <link rel="stylesheet" href="../src/scss-css/header_style.css">
+    <link rel="stylesheet" href="../src/scss-css/login_and_register_style.css">
+    <link rel="stylesheet" href="../src/scss-css/footer_style.css">
    
 </head>
 <body>
     <header>
         <div class="header__logo">
-            <img class="header__logo--img" src="../src/assets/video-camera.png" alt="logo aplicación videos">
+            <img tabindex="0" class="header__logo--img" src="../src/assets/video-camera.png" alt="logo aplicación videos">
             <p class="header__logo--p">PatiVideos</p>
         </div>
 
@@ -36,10 +36,10 @@
 
     <section class="login">
         <section class="login__container">
-            <h2>Inicia Sesión</h2>
+            <h2 tabindex="0">Inicia Sesión</h2>
             <form class="login__container--form" action="">
-                <input class="input--form" type="text" placeholder="Correo" name="" id="">
-                <input class="input--form" type="password" placeholder="Contraseña" name="" id="">
+                <input aria-label="correo" class="input--form" type="text" placeholder="Correo" >
+                <input aria-label="contraseña" class="input--form" type="password" placeholder="Contraseña" >
                 <button class="button">Iniciar Sesión</button>
                 <div class="login__container--remember-me">
                     <label>
@@ -50,7 +50,7 @@
             </form>
             <section class="login__container--social-media">
                 <div><img src="../src/assets/google.png" alt="imagen imagen icono google">Inicia sesión con Google</div>
-                <div><img src="../src/assets/twitter.png" alt="imagen imagen icono google">Inicia sesión con Twitter</div>
+                <div><img src="../src/assets/ico-twitter.png" alt="imagen imagen icono google">Inicia sesión con Twitter</div>
             </section>
             <p class="login__container--register">No tienes cuenta, <a href="/">Registrate</a></p>
         </section>

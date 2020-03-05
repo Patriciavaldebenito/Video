@@ -10,6 +10,7 @@
 .main__title{
     color: #fff;
     font-size: 25px;
+    margin-bottom: 16px;
 }
 
 .input--search{
@@ -27,14 +28,30 @@
 
 
 ::placeholder{color: #fff;}
+
+.categories__title{
+    width: 100%;
+    color: #fff;
+    font-size: 16px;
+    position: absolute;
+    padding-left: 30px;
+}
 /*CAROUSEL => ELEMENTO*/
 .carousel{
     width: 100%;
     overflow:scroll;
-    padding: 30px;
+   /* overflow: hidden; */
+    margin: 30px 0px 30px 30px;
     position: relative; /*todos los elementos que esten dentro de este div, se posición con respecto al eje de este*/
 }
+.carousel::-webkit-scrollbar {
+    display: none;
+  }
+  .carousel {
+    -ms-overflow-style: none;
+}
 .carousel__container{
+  
     white-space: nowrap;
     margin: 70px 0px;
     padding-bottom: 10px;
@@ -76,7 +93,7 @@
 .carousel-item__details{
     background: linear-gradient(to top, rgba(0,0,0,0.9) 0%, rgba(0,0,0)100%);
      font-size: 10px;
-     opacity: 1; /*0*/
+     opacity: 0; /*0*/
      transition: 450ms opacity; /*se creara el gradiente paulatinamente*/
      padding: 10px;
      position: absolute;

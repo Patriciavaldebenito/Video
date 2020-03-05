@@ -1,0 +1,24 @@
+{
+  "name": "app-video",
+  "version": "1.0.0",
+  "description": "proyecto maqueta views, formularios login, registro y página principal con busqueda de preferencia, uso de metodología BEM y preprocesador SASS, mobile first. HTML-CSS-BEM-SASS-GITHUB-GIT-NPM ",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Patriciavaldebenito/Video.git"
+  },
+  "keywords": [
+    "mobile",
+    "first-",
+    "HTML-CSS-BEM-SASS-GITHUB-GIT-NPM"
+  ],
+  "author": "Patricia Valdebenito",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Patriciavaldebenito/Video/issues"
+  },
+  "homepage": "https://github.com/Patriciavaldebenito/Video#readme"
+}

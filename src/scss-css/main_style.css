@@ -39,17 +39,50 @@
 /*CAROUSEL => ELEMENTO*/
 .carousel{
     width: 100%;
-    overflow:scroll;
+    overflow-x:scroll;
    /* overflow: hidden; */
     margin: 30px 0px 30px 30px;
     position: relative; /*todos los elementos que esten dentro de este div, se posición con respecto al eje de este*/
 }
+
+
+
+  /* Tamaño del scroll */
 .carousel::-webkit-scrollbar {
-    display: none;
+    width: 8px;
+    height: 6px;
   }
+  
+   /* Estilos barra (thumb) de scroll */
+  .carousel::-webkit-scrollbar-thumb {
+    background: #DF2EE8;
+    border-radius: 40px;
+  }
+  
+  .carousel::-webkit-scrollbar-thumb:active {
+    background-color: #999999;
+  }
+  
+  .carousel::-webkit-scrollbar-thumb:hover {
+    background: #FF1177;
+    box-shadow: 0 0 2px 1px rgba(0, 0, 0, 0.2);
+  }
+  
+   /* Estilos track de scroll */
+  .carousel::-webkit-scrollbar-track {
+    background: #212F3D;
+    border-radius: 4px;
+  }
+  
+  .carousel::-webkit-scrollbar-track:hover, 
+  .carousel::-webkit-scrollbar-track:active {
+    background: #d4d4d4;
+  }
+
+  /*
   .carousel {
     -ms-overflow-style: none;
-}
+}*/
 .carousel__container{
   
     white-space: nowrap;
@@ -69,7 +102,15 @@
     transition: 500ms all;
     transform-origin:center left ;
 }
+.carousel-x{
+    position: relative;
+    width: 200px;
+    height: 250px;
+    background-color: transparent;
+    overflow: hidden;
+    display: inline-block;
 
+}
 .carousel-item:hover ~ .carousel-item{
     /*transformacion */
     transform: translate3d(100px, 0, 0);
